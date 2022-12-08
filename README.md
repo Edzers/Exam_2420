@@ -25,7 +25,7 @@ Found the third screenshot with /json to find json-pretty.
 
 
 # Part 4
-
+Put script in bin directory.
 ```
 #!/bin/bash
 
@@ -46,6 +46,21 @@ echo "$login"
 echo "$users" > /etc/motd
 echo "$login" >> /etc/motd
 ```
+
+# Part 5
+```
+[Unit]
+Description=exampart5
+
+[Service]
+Type=simple
+ExecStart=/bin/part4script.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+
+# Part 6
 
 
 
