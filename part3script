@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+journalctl -b -p warning --output=json-pretty
+
+
+
