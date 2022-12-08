@@ -66,6 +66,19 @@ WantedBy=multi-user.target
 ```
 
 # Part 6
+```
+[Unit]
+Description=exampart6timer
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1d
+
+[Install]
+WantedBy=timers.target
+
+
+```
 
 
 
