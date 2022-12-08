@@ -15,6 +15,9 @@ To replace the mistyped V with C (celsius), I used /V to find the instances of V
 
 As for the numbs, I used the command :s/numbs/:digit: to replace it, as well as :1,11s/eco/echo/g to replace all instances of "eco" with "echo" through lines 1 to 11 (the entire script). Then, after I was done editing, I exited vim with :q!.
 
+![2420ex1pic](https://user-images.githubusercontent.com/98194499/206576327-07383c0f-8ac6-47cb-ad48-a49f94b3fe5e.png)
+
+
 # Part 3
 Found the first screenshot by searching with /options and scrolling down until I found the correct option for printing the current boot users.
 ![2420part3pic1](https://user-images.githubusercontent.com/98194499/206575540-2705586c-b27e-4e05-8f1f-f49b3a30c1ef.png)
