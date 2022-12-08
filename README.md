@@ -17,11 +17,16 @@ As for the numbs, I used the command :s/numbs/:digit: to replace it, as well as 
 
 # Part 3
 Found the first screenshot by searching with /options and scrolling down until I found the correct option for printing the current boot users.
+![2420part3pic1](https://user-images.githubusercontent.com/98194499/206575540-2705586c-b27e-4e05-8f1f-f49b3a30c1ef.png)
 
 Found the second screenshot with /priority for the -p command.
+![priority](https://user-images.githubusercontent.com/98194499/206575570-777871a8-3e35-43d6-93aa-12d9c80a91ec.png)
 
 Found the third screenshot with /json to find json-pretty.
+![pretty](https://user-images.githubusercontent.com/98194499/206575590-291a49b1-7ea5-4b41-bccd-fa474def6329.png)
 
+Final output:
+![part3script](https://user-images.githubusercontent.com/98194499/206575660-df684e03-dd5e-4ea8-8d6f-0a211618ea3c.png)
 
 
 # Part 4
